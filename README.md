@@ -15,7 +15,7 @@ OS name: "linux", version: "4.15.0-34-generic", arch: "amd64", family: "unix"
 export PATH=/opt/apache-maven-3.5.4/bin:$PATH
 ```
 
-3 - Adicionar o geckodriver ao PATH
+3 - Adicionar o geckodriver ao PATH (geckodriver 0.21.0 - Firefox Quantum 62.0 64 bits)
 ```
 export PATH=/path/to/geckodriver:$PATH
 ```
