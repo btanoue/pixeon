@@ -15,7 +15,12 @@ OS name: "linux", version: "4.15.0-34-generic", arch: "amd64", family: "unix"
 export PATH=/opt/apache-maven-3.5.4/bin:$PATH
 ```
 
-3 - Entrar na raiz do projeto e executar:
+3 - Adicionar o geckodriver ao PATH
+```
+export PATH=/path/to/geckodriver:$PATH
+```
+
+4 - Entrar na raiz do projeto e executar:
 
 ```
 mvn test
